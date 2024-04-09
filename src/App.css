@@ -1,0 +1,36 @@
+.form-container {
+  background-color: #181818; /* Dark background */
+  color: #fff; /* White text color */
+  border-radius: 8px;
+  padding: 40px;
+  max-width: 500px;
+  margin: auto; /* Center the form */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-field {
+  margin-bottom: 20px;
+  border-color: #e50914; /* Netflix red for borders */
+}
+
+/* Style the buttons similar to Discord's color scheme */
+.button-primary {
+  background-color: #5865f2; /* Discord blue */
+  color: #fff;
+}
+
+.button-secondary {
+  background-color: #3ba55d; /* Discord green */
+  color: #fff;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 600px) {
+  .form-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
